@@ -4,7 +4,7 @@ if not ok then return end
 configs.setup({
     ensure_installed = {
         "lua", "bash", "json", "yaml", "markdown", "markdown_inline",
-        "html", "css", "xml", "vim", "vimdoc", "toml", "int",
+        "html", "css", "xml", "vim", "vimdoc", "toml", "ini",
     },
     auto_install = false,
     highlight = { enable = true },
