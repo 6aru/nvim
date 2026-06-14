@@ -11,9 +11,9 @@
 <p align="center">
 
 ![Neovim](https://img.shields.io/badge/Neovim-Stable-57A143?style=for-the-badge&logo=neovim&logoColor=white)
-![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/USERNAME/REPO?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/6aru/nvim?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/6aru/nvim?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/6aru/nvim?style=for-the-badge)
 
 </p>
 
@@ -113,7 +113,7 @@ Whenever a theme is changed through the i3 theme menu, Neovim automatically load
 ### Automatic Installation
 
 ```bash
-git clone https://github.com/USERNAME/nvim.git
+git clone https://github.com/6aru/nvim.git
 
 cd nvim
 
@@ -125,7 +125,7 @@ chmod +x install.sh
 ### Manual Installation
 
 ```bash
-git clone https://github.com/USERNAME/nvim ~/.config/nvim
+git clone https://github.com/6aru/nvim ~/.config/nvim
 
 nvim
 ```
@@ -138,7 +138,7 @@ Plugins will automatically install on first launch.
 
 ### Required
 
-- Neovim 0.11+
+- Neovim 0.10+
 - Git
 
 ### Recommended
@@ -225,7 +225,7 @@ nvim/
 ├── lua/
 │   ├── core/
 │   │   ├── options.lua
-│   │   ├── keymaps.lua
+│   │   ├── keybinds.lua
 │   │   └── autocmds.lua
 │   │
 │   ├── plugins/
@@ -282,7 +282,7 @@ This project was built on ideas and inspiration from:
 - https://github.com/tonybanters/nvim
 - https://codeberg.org/justaguylinux
 
-Their work provided the foundation for the project structure, plugin management ideas, and many design concepts that helped shape this configuration.
+Their work provided the foundation for my nvim-config structure, plugin management ideas, and many design concepts that helped shape this configuration.
 
 ---
 
