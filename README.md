@@ -5,7 +5,7 @@
 > Fast. Theme-synced. Keyboard-first.
 
 <p align="center">
-  <img src="assets/screenshot.png" width="100%">
+  <img src="6aru/screenshot.png" alt="BARU's Neovim Screenshot" width="100%">
 </p>
 
 <p align="center">
