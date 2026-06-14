@@ -54,6 +54,57 @@ No frameworks. No unnecessary complexity. Just Neovim.
 
 ## 🎨 Theme Integration
 
+> **Not using my i3 + Neovim ecosystem?**
+>
+> By default, this configuration reads the active theme from:
+>
+> ```text
+> ~/.config/i3/.current_theme
+> ```
+>
+> If you're using this Neovim configuration standalone, open:
+>
+> ```text
+> ~/.config/nvim/lua/themes/theme-loader.lua
+> ```
+>
+> and replace:
+>
+> ```lua
+> require("themes.theme-loader").load()
+> ```
+>
+> with:
+>
+> ```lua
+> vim.cmd.colorscheme("github_dark_default")
+> ```
+>
+> You can replace `github_dark_default` with any installed colorscheme, such as:
+>
+> - `catppuccin-frappe`
+> - `rose-pine-moon`
+> - `kanagawa-wave`
+> - `everforest`
+> - `gruvbox`
+> - `nord`
+> - `dracula`
+> - `moonfly`
+>
+> or any other colorscheme you prefer.
+
+One of the core features of this configuration is desktop theme synchronization.
+
+Neovim automatically follows the currently selected i3 theme by reading:
+
+```text
+~/.config/i3/.current_theme
+```
+
+Whenever a theme is changed through the i3 theme menu, Neovim automatically loads the matching colorscheme on startup.
+
+## 🎨 Theme Integration
+
 One of the core features of this configuration is desktop theme synchronization.
 
 Neovim automatically follows the currently selected i3 theme by reading:
