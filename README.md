@@ -149,16 +149,13 @@ Whenever a theme is changed through the i3 theme menu, Neovim automatically load
 
 ## 🚀 Installation
 
-## 🚀 Installation
-
-### Remove Existing Neovim Configuration
-
-If you already have a Neovim configuration:
+#If you already have a Neovim configuration:
 ```bash
 mv ~/.config/nvim ~/.config/nvim.backup
 ```
 
-or
+or  Remove Existing Neovim Configuration
+
 
 ```bash
 rm -rf ~/.config/nvim
