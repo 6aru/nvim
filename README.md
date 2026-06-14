@@ -63,7 +63,9 @@ No frameworks. No unnecessary complexity. Just Neovim.
 >
 > If you're using this Neovim configuration standalone, open:
 >> ```text
+>
 > ~/.config/nvim/lua/themes/theme-loader.lua
+>
 > ```
 >> and replace:
 >> ```lua
