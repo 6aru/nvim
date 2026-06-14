@@ -1,7 +1,7 @@
 # BARU's Neovim Integrated with i3
 
 <p align="center">
-  <img src="assets/screenshot.png" alt="Screenshot" width="100%">
+  <img src="https://github.com/6aru/nvim/blob/main/Screenshot.png" alt="Screenshot" width="100%">
 </p>
 
 <p align="center">
