@@ -330,7 +330,7 @@ Feel free to open an issue or submit a pull request.
 This project was built on ideas and inspiration from:
 
 - [tonybanters/nvim](https://github.com/tonybanters/nvim)
-- [JustAGuy Linux](https://codeberg.org/justaguylinux)
+- [JustAGuy Linux](https://codeberg.org/justaguylinux/nvim)
 
 Their work provided the foundation for my nvim-config structure, plugin management ideas, and many design concepts that helped shape this configuration.
 
