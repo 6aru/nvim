@@ -11,11 +11,8 @@
 <p align="center">
 
 ![Neovim](https://img.shields.io/badge/Neovim-Stable-57A143?style=for-the-badge&logo=neovim&logoColor=white)
-
 ![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO?style=for-the-badge)
-
 ![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO?style=for-the-badge)
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/USERNAME/REPO?style=for-the-badge)
 
 </p>
