@@ -8,11 +8,11 @@
 
 ![Neovim](https://img.shields.io/badge/Neovim-Stable-green)
 
-![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO)
+![GitHub stars](https://img.shields.io/github/stars/6aru/nvim)
 
-![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO)
+![GitHub forks](https://img.shields.io/github/forks/6aru/nvim)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/USERNAME/REPO)
+![GitHub last commit](https://img.shields.io/github/last-commit/6aru/nvim)
 
 </p>
 
