@@ -35,7 +35,6 @@ return {
     "catppuccin/nvim",
     "rebelot/kanagawa.nvim",
     "sainnhe/everforest",
-    "projekt0n/github-nvim-theme",
     "bluz71/vim-moonfly-colors",
 
     -- Editing
