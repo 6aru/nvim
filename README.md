@@ -57,7 +57,6 @@ No frameworks. No unnecessary complexity. Just Neovim.
 > **Not using my i3 + Neovim ecosystem?**
 >
 > By default, this configuration reads the active theme from:
->
 > ```text
 > ~/.config/i3/.current_theme
 > ```
@@ -92,18 +91,6 @@ No frameworks. No unnecessary complexity. Just Neovim.
 > - `moonfly`
 >
 > or any other colorscheme you prefer.
-
-One of the core features of this configuration is desktop theme synchronization.
-
-Neovim automatically follows the currently selected i3 theme by reading:
-
-```text
-~/.config/i3/.current_theme
-```
-
-Whenever a theme is changed through the i3 theme menu, Neovim automatically loads the matching colorscheme on startup.
-
-## 🎨 Theme Integration
 
 One of the core features of this configuration is desktop theme synchronization.
 
