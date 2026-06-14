@@ -1,5 +1,5 @@
 require("core.options")
-require("core.keymaps")
+require("core.keybinds")
 require("core.autocmds")
 
 require("plugin-manager").setup()
