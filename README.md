@@ -14,6 +14,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/6aru/nvim?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/6aru/nvim?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/6aru/nvim?style=for-the-badge)
+
 </p>
 
 ---
