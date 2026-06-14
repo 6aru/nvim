@@ -57,26 +57,32 @@ No frameworks. No unnecessary complexity. Just Neovim.
 > **Not using my i3 + Neovim ecosystem?**
 >
 > By default, this configuration reads the active theme from:
+>
 > ```text
 > ~/.config/i3/.current_theme
 > ```
 >
 > If you're using this Neovim configuration standalone, open:
->> ```text
 >
+> ```text
 > ~/.config/nvim/lua/themes/theme-loader.lua
->
 > ```
->> and replace:
->> ```lua
+>
+> and replace:
+>
+> ```lua
 > require("themes.theme-loader").load()
 > ```
->> with:
->> ```lua
+>
+> with:
+>
+> ```lua
 > vim.cmd.colorscheme("github_dark_default")
 > ```
->> You can replace `github_dark_default` with any installed colorscheme, such as:
->> - `catppuccin-frappe`
+>
+> You can replace `github_dark_default` with any installed colorscheme, such as:
+>
+> - `catppuccin-frappe`
 > - `rose-pine-moon`
 > - `kanagawa-wave`
 > - `everforest`
