@@ -293,8 +293,7 @@ nvim/
 │   ├── plugin-list.lua
 │   └── plugin-manager.lua
 │
-├── assets/
-│   └── screenshot.png
+├── screenshot.png
 │
 ├── install.sh
 ├── README.md
