@@ -329,13 +329,13 @@ Feel free to open an issue or submit a pull request.
 
 This project was built on ideas and inspiration from:
 
-- https://github.com/tonybanters/nvim
-- https://codeberg.org/justaguylinux
+- [tonybanters/nvim](https://github.com/tonybanters/nvim)
+- [JustAGuy Linux](https://codeberg.org/justaguylinux)
 
 Their work provided the foundation for my nvim-config structure, plugin management ideas, and many design concepts that helped shape this configuration.
 
 ---
 
 <p align="center">
-  Built with ❤️ using Neovim, Lua, Debian, and i3.
+  Built with ❤️ using Neovim, Lua, Debian-13, and i3.
 </p>
