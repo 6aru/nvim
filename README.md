@@ -284,6 +284,7 @@ nvim/
 │   │   ├── navigation.lua
 │   │   ├── editing.lua
 │   │   ├── git.lua
+│   │   ├── lint.lua
 │   │   ├── treesitter.lua
 │   │   └── todo.lua
 │   │
