@@ -182,6 +182,7 @@ Plugins will automatically install on first launch.
 - Neovim 0.10+
 - Git
 - Curl
+- A Nerd Font terminal (for icons and symbols)
 
 ### Install recommended dependencies:
 ```bash
@@ -191,7 +192,6 @@ sudo apt install ripgrep fd-find fzf nodejs npm shellcheck -y
 ### Optional
 
 - Prettier
-- JetBrainsMono Nerd Font
 - i3 Window Manager (for theme synchronization)
 
 ---
