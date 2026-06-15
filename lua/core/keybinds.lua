@@ -38,7 +38,7 @@ keymap.set("n", "<leader>e", function()
     require("oil").toggle_float()
 end, opts("Explorer"))
 
--- Comment
+-- Comment.nvim
 local ok, comment = pcall(require, "Comment")
 
 if ok then
