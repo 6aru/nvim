@@ -285,7 +285,6 @@ nvim/
 │
 ├── Screenshot.png
 │
-├── install.sh
 ├── README.md
 └── .gitignore
 ```
