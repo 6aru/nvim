@@ -161,8 +161,7 @@ mv ~/.config/nvim ~/.config/nvim.backup
 rm -rf ~/.config/nvim
 ```
 
-
-### Installation
+### Installing My Neovim 
 > Clone the repository:
 ```bash
 git clone https://github.com/6aru/nvim ~/.config/nvim
