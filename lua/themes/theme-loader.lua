@@ -38,4 +38,6 @@ if not ok then
   vim.cmd.colorscheme("gruvbox")
 end
 
+end
+  
 return M
