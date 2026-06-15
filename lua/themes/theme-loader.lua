@@ -29,9 +29,13 @@ function M.load()
     moonfly = "moonfly",
   }
 
-  vim.cmd.colorscheme(
-    map[theme] or "gruvbox"
-  )
+  local ok = pcall(
+  vim.cmd.colorscheme,
+  map[theme] or "gruvbox"
+)
+
+if not ok then
+  vim.cmd.colorscheme("gruvbox")
 end
 
 return M
