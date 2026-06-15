@@ -19,6 +19,20 @@ if ok3 then
     render_md.setup({})
 end
 
+-- Comment.nvim
+local ok, comment = pcall(require, "Comment")
+
+if ok then
+    comment.setup()
+end
+
+-- nvim-surround
+local ok2, surround = pcall(require, "nvim-surround")
+
+if ok2 then
+    surround.setup({})
+end
+
 -- Markdown-preview
 vim.g.mkdp_filetypes = { "markdown" }
 vim.defer_fn(function()
