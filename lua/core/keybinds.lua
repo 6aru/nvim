@@ -38,20 +38,6 @@ keymap.set("n", "<leader>e", function()
     require("oil").toggle_float()
 end, opts("Explorer"))
 
--- Comment.nvim
-local ok, comment = pcall(require, "Comment")
-
-if ok then
-    comment.setup()
-end
-
--- nvim-surround
-local ok2, surround = pcall(require, "nvim-surround")
-
-if ok2 then
-    surround.setup({})
-end
-
 -- fzf-lua
 keymap.set("n", "<leader>ff", "<cmd>FzfLua files<cr>", opts("Find files"))
 keymap.set("n", "<leader>fw", "<cmd>FzfLua live_grep<cr>", opts("Find word"))
