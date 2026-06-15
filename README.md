@@ -161,23 +161,14 @@ mv ~/.config/nvim ~/.config/nvim.backup
 rm -rf ~/.config/nvim
 ```
 
-### Automatic Installation
 
-```bash
-git clone https://github.com/6aru/nvim.git
-
-cd nvim
-
-chmod +x install.sh
-
-./install.sh
-```
-
-### Manual Installation
-
+### Installation
+> Clone the repository:
 ```bash
 git clone https://github.com/6aru/nvim ~/.config/nvim
-
+```
+> Launch Neovim:
+```bash
 nvim
 ```
 
@@ -191,14 +182,12 @@ Plugins will automatically install on first launch.
 
 - Neovim 0.10+
 - Git
+- Curl
 
-### Recommended
-
-- Ripgrep
-- FZF
-- fd
-- NodeJS
-- npm
+### Install recommended dependencies:
+```bash
+sudo apt install ripgrep fd-find fzf nodejs npm shellcheck -y
+```
 
 ### Optional
 
