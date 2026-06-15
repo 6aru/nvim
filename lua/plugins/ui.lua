@@ -39,7 +39,7 @@ if ok3 then
         "   Next Tab: Space+j       ||     Prev Tab: Space+k  ",
         "Next Buffer: Tab           ||  Prev Buffer: Shift+Tab",
         "Split Horiz: Space+s       ||   Split Vert: Space+v  ",
-        "      Files: Space+e       ||         Git: Space+g   ",
+        "      Files: Space+e       ||         Git: Space+gg  ",
         "                                                     ",
     }
     dashboard.section.buttons.val = {
