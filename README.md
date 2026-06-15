@@ -180,8 +180,7 @@ Plugins will automatically install on first launch.
 ### Required
 
 - Neovim 0.10+
-- ['Git']('sudo apt install git')
-- ['Curl']('sudo apt install curl')
+- Git & Curl (`sudo apt install git curl -y`)
 - A Nerd Font terminal (for icons and symbols)
 
 ### Install recommended dependencies:
