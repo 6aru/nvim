@@ -38,3 +38,8 @@ vim.g.mkdp_filetypes = { "markdown" }
 vim.defer_fn(function()
     pcall(vim.cmd, "call mkdp#util#install()")
 end, 100)
+
+-- Theme-preview
+vim.keymap.set("n", "<leader>ct", function()
+    require("plugins.theme-picker").pick()
+end, { desc = "Theme Picker" })
