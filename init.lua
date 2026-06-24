@@ -3,9 +3,9 @@ require("core.keybinds")
 require("core.autocmds")
 require("core.commands")
 
-require("themes.theme-loader").load()
-
 require("plugin-manager").setup()
+
+require("themes.theme-loader").load()
 
 require("plugins.ui")
 require("plugins.navigation")
