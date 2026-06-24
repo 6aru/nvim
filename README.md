@@ -264,6 +264,7 @@ nvim/
 │   ├── core/
 │   │   ├── options.lua
 │   │   ├── keybinds.lua
+│   │   ├── commands.lua
 │   │   └── autocmds.lua
 │   │
 │   ├── plugins/
