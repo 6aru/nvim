@@ -105,5 +105,6 @@ if ok7 then
         { "<leader>f", group = "Find" },
         { "<leader>g", group = "Git" },
         { "<leader>p", group = "Preview" },
+        { "<leader>ct", desc = "Change Theme" },
     })
 end
