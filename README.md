@@ -273,6 +273,7 @@ nvim/
 │   │   ├── editing.lua
 │   │   ├── git.lua
 │   │   ├── lint.lua
+│   │   ├── theme-picker.lua
 │   │   ├── treesitter.lua
 │   │   └── todo.lua
 │   │
@@ -299,7 +300,7 @@ nvim/
 - [x] Multi-theme support
 - [ ] Mason integration
 - [ ] LSP support
-- [ ] Theme preview system
+- [x] Theme preview system
 - [ ] Automatic theme installer
 - [ ] Session management
 
