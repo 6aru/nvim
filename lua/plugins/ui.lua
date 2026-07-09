@@ -24,29 +24,23 @@ local ok3, alpha = pcall(require, "alpha")
 if ok3 then
     local dashboard = require("alpha.themes.dashboard")
     dashboard.section.header.val = {
-        "                                                     ",
-        "  ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗ ",
-        "  ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║ ",
-        "  ██╔██╗ ██║█████╗  ██║   ██║██║   ██║██║██╔████╔██║ ",
-        "  ██║╚██╗██║██╔══╝  ██║   ██║╚██╗ ██╔╝██║██║╚██╔╝██║ ",
-        "  ██║ ╚████║███████╗╚██████╔╝ ╚████╔╝ ██║██║ ╚═╝ ██║ ",
-        "  ╚═╝  ╚═══╝╚══════╝ ╚═════╝   ╚═══╝  ╚═╝╚═╝     ╚═╝ ",
-        "                                                     ",
-        "Keymap                                               ",
-        "                                                     ",
-        "  Find File: Space+ff      ||    Find Word: Space+fw ",
-        " Create Tab: Space+t       ||    Close Tab: Space+x  ",
-        "   Next Tab: Space+j       ||     Prev Tab: Space+k  ",
-        "Next Buffer: Tab           ||  Prev Buffer: Shift+Tab",
-        "Split Horiz: Space+s       ||   Split Vert: Space+v  ",
-        "      Files: Space+e       ||         Git: Space+gg  ",
-        "                                                     ",
+    "",
+    "███╗   ██╗██╗   ██╗██╗███╗   ███╗",
+    "████╗  ██║██║   ██║██║████╗ ████║",
+    "██╔██╗ ██║██║   ██║██║██╔████╔██║",
+    "██║╚██╗██║╚██╗ ██╔╝██║██║╚██╔╝██║",
+    "██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║",
+    "╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝",
+    "",
+    "      Pure • Fast • Minimal",
+    "",
     }
     dashboard.section.buttons.val = {
-        dashboard.button("e", "  New file", ":ene <BAR> startinsert<CR>"),
-        dashboard.button("f", "  Find file", ":FzfLua files<CR>"),
-        dashboard.button("r", "  Recent files", ":FzfLua oldfiles<CR>"),
-        dashboard.button("q", "  Quit", ":qa<CR>"),
+        dashboard.button("f", "󰈞  Find File",      ":FzfLua files<CR>"),
+        dashboard.button("r", "󰋚  Recent Files",   ":FzfLua oldfiles<CR>"),
+        dashboard.button("g", "󰊢  Live Grep",      ":FzfLua live_grep<CR>"),
+        dashboard.button("n", "󰝒  New File",       ":ene <BAR> startinsert<CR>"),
+        dashboard.button("q", "󰗼  Quit",           ":qa<CR>"),
     }
     alpha.setup(dashboard.config)
 end
