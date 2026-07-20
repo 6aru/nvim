@@ -36,6 +36,7 @@ return {
     "rebelot/kanagawa.nvim",
     "sainnhe/everforest",
     "bluz71/vim-moonfly-colors",
+    "e-ink-colorscheme/e-ink.nvim",
 
     -- Editing
     "windwp/nvim-autopairs",
