@@ -18,6 +18,13 @@
 </p>
 
 ---
+> Quick preview.
+<p align="center"> 
+  
+  | ![](https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999) | 
+  | :---------------------------------------------------------------: |
+
+
 
 ## 🎯 Philosophy
 
