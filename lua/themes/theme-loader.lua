@@ -27,6 +27,7 @@ function M.load()
     everforest = "everforest",
     github_dark = "github_dark_default",
     moonfly = "moonfly",
+    eink = "e-ink",
   }
 
   local ok = pcall(
