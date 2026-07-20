@@ -21,7 +21,7 @@
 > Quick preview.
 <p align="center"> 
   
-  | ![](https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999) | 
+  | ![](https://github.com/user-attachments/assets/3da7f2bc-1e13-4617-bfa8-cbb9ac713608) | 
   | :---------------------------------------------------------------: |
 
 
