@@ -10,6 +10,7 @@ M.themes = {
     "dracula",
     "moonfly",
     "github_dark_default",
+    "e-ink",
 }
 
 function M.pick()
