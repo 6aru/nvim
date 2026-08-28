@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+# nvim-switch: pick which Neovim config profile to launch.
+#
+# Uses Neovim's built-in NVIM_APPNAME env var. Each profile name gets its
+# own, fully isolated config/data/state/cache directories -- so plugins,
+# Mason installs, and sessions from one config never collide with another.
+# No plugin required; this is a core Neovim feature (:help nvim_appname).
+#
+# Setup:
+#   1. Keep this config at ~/.config/nvim (that makes it your default:
+#      plain `nvim` with no NVIM_APPNAME set still uses it).
+#   2. Any other config profile lives in a sibling directory:
+#        ~/.config/nvim-minimal/init.lua
+#        ~/.config/nvim-lazyvim/init.lua
+#      Each just needs its own init.lua at the top level.
+#   3. Put this script on your PATH (or alias it), e.g. in ~/.bashrc / ~/.zshrc:
+#        alias vims="~/.config/nvim/bin/nvim-switch"
+#   4. Run `vims` any time to fuzzy-pick a profile and launch it. Any extra
+#      arguments are passed straight through to nvim, e.g. `vims myfile.lua`.
+#
+# Requires fzf for the interactive picker; falls back to a numbered menu
+# if fzf isn't installed.
+
+set -euo pipefail
+
+CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+
+mapfile -t profiles < <(
+    find "$CONFIG_HOME" -maxdepth 1 -type d -name 'nvim*' 2>/dev/null \
+        | while read -r dir; do
+            [ -f "$dir/init.lua" ] && basename "$dir"
+        done \
+        | sort
+)
+
+if [ "${#profiles[@]}" -eq 0 ]; then
+    echo "No Neovim config profiles found under $CONFIG_HOME (looked for */init.lua in nvim*/)." >&2
+    exit 1
+fi
+
+choice=""
+if command -v fzf >/dev/null 2>&1; then
+    choice=$(printf '%s\n' "${profiles[@]}" | fzf --prompt="Neovim config> " --height=40% --reverse)
+else
+    echo "Pick a Neovim config profile:"
+    select opt in "${profiles[@]}"; do
+        [ -n "${opt:-}" ] && choice="$opt" && break
+    done
+fi
+
+[ -z "$choice" ] && exit 0
+
+echo "Launching NVIM_APPNAME=$choice nvim $*"
+NVIM_APPNAME="$choice" exec nvim "$@"
