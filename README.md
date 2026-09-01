@@ -45,7 +45,7 @@ Full list, including recommended tools and formatters, is in the
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git ~/.config/nvim
+git clone https://github.com/6aru/nvim.git ~/.config/nvim
 nvim
 ```
 
