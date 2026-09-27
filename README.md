@@ -4,7 +4,6 @@
   <a href="https://neovim.io/"><img src="https://img.shields.io/badge/Neovim-0.12.4-181818?style=for-the-badge&logo=neovim&logoColor=181818" alt="Neovim"></a>
   <a href="https://github.com/6aru/nvim/stargazers"><img src="https://img.shields.io/github/stars/6aru/nvim?style=for-the-badge&color=181818" alt="Stars"></a>
   <a href="https://github.com/6aru/nvim/network/members"><img src="https://img.shields.io/github/forks/6aru/nvim?style=for-the-badge&color=181818" alt="Forks"></a>
-  <a href="https://github.com/6aru/nvim/commits/main"><img src="https://img.shields.io/github/last-commit/6aru/nvim?style=for-the-badge&color=181818" alt="Last Commit"></a>
 </p>
 
 <p align="center"> 
