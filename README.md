@@ -7,6 +7,13 @@
   <a href="https://github.com/6aru/nvim/commits/main"><img src="https://img.shields.io/github/last-commit/6aru/nvim?style=for-the-badge&color=181818" alt="Last Commit"></a>
 </p>
 
+<p align="center"> 
+  
+  | ![](https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999) | 
+  | :---------------------------------------------------------------: |
+
+</div>
+
 A minimal, LSP-powered Neovim config with no plugin-manager framework —
 and colors that always match your terminal.
 
