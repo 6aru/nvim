@@ -9,7 +9,7 @@
 
 <p align="center"> 
   
-  | ![](https://github.com/user-attachments/assets/ef416bc3-610c-4ea6-9297-bbe713580999) | 
+  | ![](https://github.com/user-attachments/assets/3c598279-10a5-4952-ab02-11a6c8f70a55) | 
   | :---------------------------------------------------------------: |
 
 
