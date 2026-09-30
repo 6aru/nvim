@@ -1,5 +1,8 @@
 <div align="center">
 
+A minimal, LSP-powered Neovim config with no plugin-manager framework —
+and colors that always match your terminal.
+
 <p align="center">
   <a href="https://neovim.io/"><img src="https://img.shields.io/badge/Neovim-0.12.4-181818?style=for-the-badge&logo=neovim&logoColor=181818" alt="Neovim"></a>
   <a href="https://github.com/6aru/nvim/stargazers"><img src="https://img.shields.io/github/stars/6aru/nvim?style=for-the-badge&color=181818" alt="Stars"></a>
@@ -8,12 +11,8 @@
 
 <p align="center"> 
   
-  | ![](https://github.com/user-attachments/assets/3c598279-10a5-4952-ab02-11a6c8f70a55) | 
-  | :---------------------------------------------------------------: |
+  ![](https://github.com/user-attachments/assets/3c598279-10a5-4952-ab02-11a6c8f70a55)
 
-
-A minimal, LSP-powered Neovim config with no plugin-manager framework —
-and colors that always match your terminal.
 
 </div>
 
