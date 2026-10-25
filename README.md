@@ -73,6 +73,17 @@ for what to do next.
 | [Multi-Config Switching](../../wiki/Multi-Config-Switching) | Running more than one Neovim setup |
 | [Troubleshooting](../../wiki/Troubleshooting) | Fixes for common issues |
 
+## 🙏 Credits
+
+- This project was built on ideas and inspiration from:
+
+    - [tonybanters/nvim](https://github.com/tonybanters/nvim)
+    - [JustAGuy Linux](https://codeberg.org/justaguylinux/nvim)
+
+> Their work provided the foundation for my nvim-config structure, plugin management ideas, and many design concepts that helped shape this configuration.
+
+---
+
 ## License
 
 MIT
