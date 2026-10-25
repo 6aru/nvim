@@ -84,7 +84,7 @@ for what to do next.
 
 ---
 
-## License
+### License
 
 MIT — see [LICENSE](LICENSE).
 
