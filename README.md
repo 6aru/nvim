@@ -86,4 +86,8 @@ for what to do next.
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
+
+<div align="center">
+<sub>If you found this repository useful, please consider leaving a ⭐</sub>
+</div>
